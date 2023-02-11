@@ -6,6 +6,7 @@ cols = ["name", "phone", "email", "date", "country"]
 rows = []
 
 # Parsing the XML file
+#testing for feature1
 xmlparse = Xet.parse('sample.xml')
 root = xmlparse.getroot()
 for i in root:
